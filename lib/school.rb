@@ -33,7 +33,7 @@ class School
 
     # sorted
 
-    sorted = @roster.sort_by {|grade, name| name.sort}
+    sorted = @roster.sort_by {|grade, name| name}
   end
 
 
