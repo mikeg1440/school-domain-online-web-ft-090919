@@ -25,13 +25,13 @@ class School
 
   def sort
 
-    # sorted = {}
+    sorted = {}
 
-    # @roster.map do |grade, names|
-    #   sorted[grade] = names.sort
-    # end
+    @roster.map do |grade, names|
+      sorted[grade] = names.sort
+    end
 
-    # sorted
+    sorted
   end
 
 
