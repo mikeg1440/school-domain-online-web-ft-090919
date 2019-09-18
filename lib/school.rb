@@ -1,4 +1,5 @@
 require "pry"
+require "pry-moves"
 
 class School
 
