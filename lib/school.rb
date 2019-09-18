@@ -34,6 +34,7 @@ class School
     # sorted
 
     sorted = @roster.sort_by {|grade, name| grade}
+    sorted.to_h
   end
 
 
